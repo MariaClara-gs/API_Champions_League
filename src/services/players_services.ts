@@ -1,7 +1,4 @@
-import {
-  findAllPlayers,
-  findPlayerById,
-} from "../repositories/players_repository";
+import { findAllPlayers } from "../repositories/players_repository";
 import { noContent, ok } from "../utils/http_helper";
 
 export const getPlayerData = async () => {
